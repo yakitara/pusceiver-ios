@@ -1,0 +1,23 @@
+
+PODS:
+- Firebase-iOS-SDK (0.0.1)
+- NSURL+queryDictionary (0.0.1)
+- Parse (1.1.32)
+
+DEPENDENCIES:
+- Firebase-iOS-SDK (from `https://gist.github.com/hiroshi/d78c77a2e0e000223b59/raw/47a088d3739100684026818e37b7faa5f39ac52e/Firebase-iOS-SDK.podspec')
+- NSURL+queryDictionary (from `https://github.com/hiroshi/NSURL-queryDictionary.git')
+- Parse
+
+EXTERNAL SOURCES:
+  Firebase-iOS-SDK:
+    :podspec: https://gist.github.com/hiroshi/d78c77a2e0e000223b59/raw/47a088d3739100684026818e37b7faa5f39ac52e/Firebase-iOS-SDK.podspec
+  NSURL+queryDictionary:
+    :git: https://github.com/hiroshi/NSURL-queryDictionary.git
+
+SPEC CHECKSUMS:
+  Firebase-iOS-SDK: d95d17c6db4af5351ac5fd7eb65f1c9a1eb814a1
+  NSURL+queryDictionary: 4f9579b223d71708f351f27dc181642a409fd049
+  Parse: 4e937cf1035404787d71f611ef464097d3a034bf
+
+COCOAPODS: 0.16.4

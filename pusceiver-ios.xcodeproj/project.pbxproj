@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6845CEC516DA506A006123C0 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6845CEC416DA506A006123C0 /* ItemViewController.m */; };
+		6845CEC716DB37A0006123C0 /* AppDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6845CEC616DB37A0006123C0 /* AppDefaults.plist */; };
+		685281A516D9A14200A9E7B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685281A416D9A14200A9E7B8 /* UIKit.framework */; };
+		685281A716D9A14200A9E7B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685281A616D9A14200A9E7B8 /* Foundation.framework */; };
+		685281A916D9A14200A9E7B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685281A816D9A14200A9E7B8 /* CoreGraphics.framework */; };
+		685281AF16D9A14200A9E7B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 685281AD16D9A14200A9E7B8 /* InfoPlist.strings */; };
+		685281B116D9A14200A9E7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685281B016D9A14200A9E7B8 /* main.m */; };
+		685281B516D9A14200A9E7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685281B416D9A14200A9E7B8 /* AppDelegate.m */; };
+		685281B716D9A14200A9E7B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 685281B616D9A14200A9E7B8 /* Default.png */; };
+		685281B916D9A14200A9E7B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685281B816D9A14200A9E7B8 /* Default@2x.png */; };
+		685281BB16D9A14200A9E7B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 685281BA16D9A14200A9E7B8 /* Default-568h@2x.png */; };
+		685281C416D9B20000A9E7B8 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685281C316D9B20000A9E7B8 /* ItemsViewController.m */; };
+		68CC365C16DBB3C500D1DB46 /* FirebaseRootRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CC365B16DBB3C500D1DB46 /* FirebaseRootRef.m */; };
+		DEFEC15275D943ECBAF8F4CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E2DF5DA9540C3B973CC39 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6845CEC216DA4629006123C0 /* secret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secret.h; sourceTree = SOURCE_ROOT; };
+		6845CEC316DA506A006123C0 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		6845CEC416DA506A006123C0 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		6845CEC616DB37A0006123C0 /* AppDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppDefaults.plist; sourceTree = "<group>"; };
+		685281A116D9A14200A9E7B8 /* pusceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pusceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685281A416D9A14200A9E7B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		685281A616D9A14200A9E7B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		685281A816D9A14200A9E7B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		685281AC16D9A14200A9E7B8 /* pusceiver-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pusceiver-ios-Info.plist"; sourceTree = "<group>"; };
+		685281AE16D9A14200A9E7B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		685281B016D9A14200A9E7B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685281B216D9A14200A9E7B8 /* pusceiver-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pusceiver-ios-Prefix.pch"; sourceTree = "<group>"; };
+		685281B316D9A14200A9E7B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685281B416D9A14200A9E7B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685281B616D9A14200A9E7B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		685281B816D9A14200A9E7B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		685281BA16D9A14200A9E7B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		685281C216D9B20000A9E7B8 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		685281C316D9B20000A9E7B8 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		68CC365A16DBB3C500D1DB46 /* FirebaseRootRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseRootRef.h; sourceTree = "<group>"; };
+		68CC365B16DBB3C500D1DB46 /* FirebaseRootRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseRootRef.m; sourceTree = "<group>"; };
+		DB9E2DF5DA9540C3B973CC39 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46139CEEC45475883CAEA62 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6852819E16D9A14200A9E7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685281A516D9A14200A9E7B8 /* UIKit.framework in Frameworks */,
+				685281A716D9A14200A9E7B8 /* Foundation.framework in Frameworks */,
+				685281A916D9A14200A9E7B8 /* CoreGraphics.framework in Frameworks */,
+				DEFEC15275D943ECBAF8F4CA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6852819816D9A14200A9E7B8 = {
+			isa = PBXGroup;
+			children = (
+				685281AA16D9A14200A9E7B8 /* pusceiver-ios */,
+				685281A316D9A14200A9E7B8 /* Frameworks */,
+				685281A216D9A14200A9E7B8 /* Products */,
+				E46139CEEC45475883CAEA62 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		685281A216D9A14200A9E7B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685281A116D9A14200A9E7B8 /* pusceiver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685281A316D9A14200A9E7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685281A416D9A14200A9E7B8 /* UIKit.framework */,
+				685281A616D9A14200A9E7B8 /* Foundation.framework */,
+				685281A816D9A14200A9E7B8 /* CoreGraphics.framework */,
+				DB9E2DF5DA9540C3B973CC39 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685281AA16D9A14200A9E7B8 /* pusceiver-ios */ = {
+			isa = PBXGroup;
+			children = (
+				685281C116D9B20000A9E7B8 /* Controllers */,
+				685281B316D9A14200A9E7B8 /* AppDelegate.h */,
+				685281B416D9A14200A9E7B8 /* AppDelegate.m */,
+				68CC365A16DBB3C500D1DB46 /* FirebaseRootRef.h */,
+				68CC365B16DBB3C500D1DB46 /* FirebaseRootRef.m */,
+				685281AB16D9A14200A9E7B8 /* Supporting Files */,
+			);
+			path = "pusceiver-ios";
+			sourceTree = "<group>";
+		};
+		685281AB16D9A14200A9E7B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685281AC16D9A14200A9E7B8 /* pusceiver-ios-Info.plist */,
+				685281AD16D9A14200A9E7B8 /* InfoPlist.strings */,
+				6845CEC216DA4629006123C0 /* secret.h */,
+				685281B016D9A14200A9E7B8 /* main.m */,
+				685281B216D9A14200A9E7B8 /* pusceiver-ios-Prefix.pch */,
+				685281B616D9A14200A9E7B8 /* Default.png */,
+				685281B816D9A14200A9E7B8 /* Default@2x.png */,
+				685281BA16D9A14200A9E7B8 /* Default-568h@2x.png */,
+				6845CEC616DB37A0006123C0 /* AppDefaults.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685281C116D9B20000A9E7B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				685281C216D9B20000A9E7B8 /* ItemsViewController.h */,
+				685281C316D9B20000A9E7B8 /* ItemsViewController.m */,
+				6845CEC316DA506A006123C0 /* ItemViewController.h */,
+				6845CEC416DA506A006123C0 /* ItemViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685281A016D9A14200A9E7B8 /* pusceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685281BE16D9A14200A9E7B8 /* Build configuration list for PBXNativeTarget "pusceiver" */;
+			buildPhases = (
+				6852819D16D9A14200A9E7B8 /* Sources */,
+				6852819E16D9A14200A9E7B8 /* Frameworks */,
+				6852819F16D9A14200A9E7B8 /* Resources */,
+				17E51FC40BA6481BA781256E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pusceiver;
+			productName = "pusceiver-ios";
+			productReference = 685281A116D9A14200A9E7B8 /* pusceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6852819916D9A14200A9E7B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yakitara.com;
+			};
+			buildConfigurationList = 6852819C16D9A14200A9E7B8 /* Build configuration list for PBXProject "pusceiver-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6852819816D9A14200A9E7B8;
+			productRefGroup = 685281A216D9A14200A9E7B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685281A016D9A14200A9E7B8 /* pusceiver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6852819F16D9A14200A9E7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685281AF16D9A14200A9E7B8 /* InfoPlist.strings in Resources */,
+				685281B716D9A14200A9E7B8 /* Default.png in Resources */,
+				685281B916D9A14200A9E7B8 /* Default@2x.png in Resources */,
+				685281BB16D9A14200A9E7B8 /* Default-568h@2x.png in Resources */,
+				6845CEC716DB37A0006123C0 /* AppDefaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E51FC40BA6481BA781256E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6852819D16D9A14200A9E7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685281B116D9A14200A9E7B8 /* main.m in Sources */,
+				685281B516D9A14200A9E7B8 /* AppDelegate.m in Sources */,
+				685281C416D9B20000A9E7B8 /* ItemsViewController.m in Sources */,
+				6845CEC516DA506A006123C0 /* ItemViewController.m in Sources */,
+				68CC365C16DBB3C500D1DB46 /* FirebaseRootRef.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		685281AD16D9A14200A9E7B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685281AE16D9A14200A9E7B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685281BC16D9A14200A9E7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685281BD16D9A14200A9E7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685281BF16D9A14200A9E7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46139CEEC45475883CAEA62 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pusceiver-ios/pusceiver-ios-Prefix.pch";
+				INFOPLIST_FILE = "pusceiver-ios/pusceiver-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		685281C016D9A14200A9E7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46139CEEC45475883CAEA62 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pusceiver-ios/pusceiver-ios-Prefix.pch";
+				INFOPLIST_FILE = "pusceiver-ios/pusceiver-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6852819C16D9A14200A9E7B8 /* Build configuration list for PBXProject "pusceiver-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685281BC16D9A14200A9E7B8 /* Debug */,
+				685281BD16D9A14200A9E7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685281BE16D9A14200A9E7B8 /* Build configuration list for PBXNativeTarget "pusceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685281BF16D9A14200A9E7B8 /* Debug */,
+				685281C016D9A14200A9E7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6852819916D9A14200A9E7B8 /* Project object */;
+}
